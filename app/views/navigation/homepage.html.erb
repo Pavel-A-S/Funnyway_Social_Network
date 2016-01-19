@@ -1,0 +1,30 @@
+<div class = "MainCoverWrapper">
+	<%= image_tag "/Default_Cover/main_cover.png", class: 'MainCover' %>
+</div>
+
+<div class = "MainIconWrapper">
+  <%= link_to(image_tag("/Default_Cover/house.png", class: 'MainIcons'),
+              photo_galleries_path) %>
+</div>
+
+<div class = "MainIconWrapper">
+  <%= link_to(image_tag("/Default_Cover/people.png", class: 'MainIcons'),
+              humans_path) %>
+</div>
+
+<div class = "MainIconWrapper">
+  <%= link_to(image_tag("/Default_Cover/speaker.png", class: 'MainIcons'),
+              chats_path + "#bottom") %>
+</div>
+
+<div class = "MainIconWrapper">
+  <%= link_to(image_tag("/Default_Cover/question.png", class: 'MainIcons'),
+              questions_path) %>
+</div>
+
+<div class = "Overlay"></div>
+
+<script type="text/javascript">
+  PreLoader("MainCover");
+  PreLoader("MainIcons");
+</script>
