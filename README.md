@@ -7,6 +7,8 @@ skills and create my own website. At present, project is finished, but has
 initial state. Piece by piece I'll develop it.
 
 ## "Funny way" features
+[![Build Status](https://travis-ci.org/Pavel-A-S/Funnyway_Social_Network.svg?branch=master)](https://travis-ci.org/Pavel-A-S/Funnyway_Social_Network)
+
 The mini-social network includes below features:
 
 - Authentication and authorization system, which was developed from scratch.
